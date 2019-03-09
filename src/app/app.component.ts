@@ -27,7 +27,7 @@ export class AppComponent {
     { id: 3, name: 'hage' }
   ]
 
-  value?: number = 2;
+  value: number | null = 2;
 
   clear(): void {
     this.value = null;
